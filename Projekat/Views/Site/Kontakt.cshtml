@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Kontakt | Optika Shop";
+    ViewBag.Description = "Ukoliko imate bilo kakvih pitanja ili nedoumica, kontaktirajte nas. Tim stručnjaka će Vam odgovoriti u najkraćem roku.";
+    Layout = "~/Views/Shared/_SiteLayout.cshtml";
+}
+
+<div class="contact_main">
+    <div class="touch_section">
+        <div class="container">
+            <h1 class="touch_text">Imate pitanje? Pišite nam!</h1>
+        </div>
+    </div>
+    <div class="lets_touch_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input_main">
+                        <div class="container">
+                            <form action="/action_page.php">
+                                <div class="form-group">
+                                    <input type="text" class="email-bt" placeholder="Ime" name="Name">
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="email-bt" placeholder="Email" name="Email">
+                                </div>
+                                <form action="/action_page.php">
+                                    <div class="form-group">
+                                        <textarea class="massage-bt" placeholder="Poruka" rows="5" id="comment" name="text"></textarea>
+                                    </div>
+                                </form>
+                            </form>
+                        </div>
+                        <div class="send_btn">
+                            <button type="button" class="main_bt"><a href="#">Pošalji</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-12">
+                            <p class="lorem_text">
+                                U prijatnom ambijentu naše optičarske radnje, očekuje Vas veliki izbor originalnih dioptrijskih ramova i stakala, renomiranih proizvođača, koji će Vaš pogled učiniti savršenim na daljinu i na blizinu.
+                                Naše profesionalno i stručno osoblje će Vam pružiti svu neophodnu pomoć prilikom izbora Vašeg para naočara, dati preporuku za odgovarajuća dioptrijska stakla (monofokalna, bifokalna ili progresivna) i za adekvatnu zaštitu (antirefleks, fotoćelije, polarizacija i dr).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
